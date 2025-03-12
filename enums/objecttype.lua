@@ -1,0 +1,35 @@
+---GameObject type
+---@class ObjectType
+---@field NeutralMinionCamp number
+---@field AIHeroClient number
+---@field AIMarker number
+---@field AIMinionClient number
+---@field FollowerObject number
+---@field LevelPropAIClient number
+---@field AITurretCommon number
+---@field AITurretClient number
+---@field obj_GeneralParticleEmitter number
+---@field GameObject number
+---@field Pawn number
+---@field MissileClient number
+---@field DrawFX number
+---@field UnrevealedTarget number
+---@field TFTSlotObject number
+---@field Barracks number
+---@field BarracksDampener number
+---@field obj_Levelsizer number
+---@field obj_NavPoint number
+---@field obj_SpawnPoint number
+---@field AnimatedBuilding number
+---@field BuildingClient number
+---@field GrassObject number
+---@field HQ number
+---@field obj_InfoPoint number
+---@field MapProp number
+---@field LevelPropGameObject number
+---@field LevelPropSpawnerPoint number
+---@field Shop number
+---@field obj_Turret number
+---@field Unknown number
+ObjectType = {}
+

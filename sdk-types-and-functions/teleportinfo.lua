@@ -1,0 +1,11 @@
+---TeleportInfo contains data related to tracked recalling or teleporting.
+---@class TeleportInfo
+---@field startTime number
+---@field endTime number
+---@field duration number
+---@field sender AIHeroClient
+---@field status TeleportStatus
+---@field type TeleportType
+---@field teleportName string
+---@field teleportTypeName string
+TeleportInfo = {}

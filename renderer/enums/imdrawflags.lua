@@ -1,0 +1,21 @@
+---Renderer.ImDrawFlagsbitflag
+---
+---**Note:** Part of Renderer namespace.
+---**Tip:** You can use bit operations to construct multi flag. See [`bit library`](/developers/sdk-documentation/library/bit).
+---@class ImDrawFlags
+---@field None number #
+---@field Closed number #
+---@field RoundCornersTopLeft number #
+---@field RoundCornersTopRight number #
+---@field RoundCornersBottomLeft number #
+---@field RoundCornersBottomRight number #
+---@field RoundCornersNone number #
+---@field RoundCornersTop number #
+---@field RoundCornersBottom number #
+---@field RoundCornersLeft number #
+---@field RoundCornersRight number #
+---@field RoundCornersAll number #
+---@field RoundCornersDefault_ number #
+---@field RoundCornersMask_ number #
+Renderer.ImDrawFlags = {}
+

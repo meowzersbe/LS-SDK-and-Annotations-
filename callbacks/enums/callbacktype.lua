@@ -1,0 +1,38 @@
+---Callback type
+---@class CallbackType
+---@field OnDraw number #Fired every time the game renders a frame. Can be used to draw to the screen using renderer functions.
+---@field OnImguiDraw number #Fired every time the game renders a frame with ImGui. Can be used to draw to the screen using ImGui functions.
+---@field OnTick number #Fired every time the game update object. Can be used to run champion logic.
+---@field OnFastTick number #Fired every time the game update object. Can be used to run champion logic. Faster than on tick, do not use if not necessary.
+---@field OnUnload number #Fired when script unload. Make sure to dispose of your objects and clean up with this callback.
+---@field OnBeforeAttack number #Fired before orbwalker want to attack someone.
+---@field OnAfterAttack number #Fired when orbwalker finishes an attack.
+---@field OnIssueOrder number #Fired when issuing movement or attack order.
+---@field OnCastHud number #Fired on manual spell cast by the user (before OnSpellCast).
+---@field OnSpellCast number #Fired on client-side spell cast.
+---@field OnValidateInput number #
+---@field OnSpellCast2 number #
+---@field OnUpdateChargeableSpell number #
+---@field OnSpellAnimationStart number #Fired when a spell cast is started.
+---@field OnSpellCastComplete number #Fired when a spell cast is finished.
+---@field OnSpellAnimationCancel number #Fired when a spell cast is stopped.
+---@field OnUpdateMissile number #Fired when missile is being updated. For example for Yuumi Q. You can edit the position.
+---@field OnChangeSlotSpellName number #Fired when a spell slot name change.
+---@field OnEvolve number #Fired when evolving a spell.
+---@field OnObjectCreate number #Fired when GameObject is created.
+---@field OnObjectRemove number #Fired when GameObject is removed.
+---@field OnPrintChat number #Fired when a message is printed to game chat.
+---@field OnNewPath number #Fired when when unit gets a new path.
+---@field OnGainLoseBuff number #Fired when unit gains or loses a buff.
+---@field OnUpdateBuff number #Fired when one of unit buffs is updated.
+---@field OnPlayAnimation number #Fired when unit plays some animation.
+---@field OnNotify number #Fired on various game events such as surrender vote.
+---@field OnSendPing number #Fired when player pings something. This event can be cancelled similar to OnSpellCast or OnIssueOrder.
+---@field OnShowPing number #Fired on any ping.
+---@field OnMinimapIconChange number #Fired on minimap icon change.
+---@field OnPacketReceive number #Fired when we receive packet from server.
+---@field OnWndProc number #Fired on user keyboard and mouse input.
+---@field OnEvade number #Fired when Evade takes action to dodge something.
+---@field OnSkillshotCreate number #Fired when Evade creates an instance of skillshot.
+CallbackType = {}
+

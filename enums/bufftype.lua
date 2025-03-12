@@ -1,0 +1,44 @@
+---Buff type
+---@class BuffType
+---@field Invalid number
+---@field Internal number
+---@field Aura number
+---@field CombatEnchancer number
+---@field CombatDehancer number
+---@field SpellShield number
+---@field Stun number
+---@field Invisibility number
+---@field Silence number
+---@field Taunt number
+---@field Polymorph number
+---@field Slow number
+---@field Snare number
+---@field Damage number
+---@field Heal number
+---@field Haste number
+---@field SpellImmunity number
+---@field PhysicalImmunity number
+---@field Invulnerability number
+---@field Taunt number
+---@field AttackSpeedSlow number
+---@field NearSight number
+---@field Currency number
+---@field Fear number
+---@field Charm number
+---@field Poison number
+---@field Suppression number
+---@field Blind number
+---@field Counter number
+---@field Shred number
+---@field Flee number
+---@field Knockup number
+---@field Knockback number
+---@field Disarm number
+---@field Grounded number
+---@field Drowsy number
+---@field Asleep number
+---@field Obscured number
+---@field ClickproofToEnemies number
+---@field UnKillable number
+BuffType = {}
+
